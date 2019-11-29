@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="NUMERO DE CONTROL DEL ALUMNO:" />
+
+            <EditText
+                android:id="@+id/caja_num_control"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:text="S15070125" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE DEL ALUMNO" />
+
+            <EditText
+                android:id="@+id/caja_nombre_alumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:text="JOSE" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="APELLIDO PATERNO DEL ALUMNO:" />
+
+            <EditText
+                android:id="@+id/caja_primer_ap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:text="ALAMILLO" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="APELLIDO MATERNO DEL ALUMNO:" />
+
+            <EditText
+                android:id="@+id/caja_segundo_ap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:text="ARELLANO" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EDAD DEL ALUMNO:" />
+
+            <EditText
+                android:id="@+id/caja_edad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:inputType="number"
+                android:text="22" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEMESTRE DEL ALUMNO:" />
+
+            <EditText
+                android:id="@+id/caja_semestre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="9"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CARRERA DEL ALUMNO:" />
+
+            <EditText
+                android:id="@+id/caja_carrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:text="I.S.C"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_eliminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="registrarAlumno"
+                android:text="@string/txt_btn_agregar" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

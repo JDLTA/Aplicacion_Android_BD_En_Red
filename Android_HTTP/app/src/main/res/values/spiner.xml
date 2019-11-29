@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carreras">
+        <item>ELIGE LA CARRERA</item>
+        <item>I.S.C</item>
+        <item>L.A</item>
+    </string-array>
+</resources>
